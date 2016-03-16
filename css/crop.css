@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+.CanvasHolder{
+	position: relative;
+	margin: auto;
+
+
+}
+
+#download{
+	font-size: 14px;
+
+}
+
+#CropPhoto{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #000;
+}
+
+#CropHolder{
+	position: absolute;
+	top: 0;
+	left: 0;
+	cursor: crosshair;
+
+}
+
+#CropBox{
+	position: relative;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	cursor: all-scroll;
+
+
+}
+
+#ShadowCvs{
+	opacity: .5;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#LineTop{
+	width: 100%;
+	height: 2px;
+	position: absolute;
+	top: 0px;
+	left: 0;
+	cursor: n-resize;
+}
+#LineBottom{
+	width: 100%;
+	height: 2px;
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+	cursor: n-resize;
+}
+#LineLeft{
+	width: 2px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	cursor: ew-resize;	
+}
+#LineRight{
+	width: 2px;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	right: 0;
+	cursor: ew-resize;		
+}
+
+.CropLine{
+	background: url('../images/Cropper.gif');
+}
